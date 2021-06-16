@@ -1,0 +1,33 @@
+{
+    "name": "@xhermosilla/xhome-service-container",
+    "version": "1.0.0",
+    "description": "XHome - App service container",
+    "main": "src/app.js",
+    "scripts": {
+        "debug": "DEBUG=xhome node --inspect bin/www",
+        "start": "DEBUG=xhome node bin/www"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xhome-automation/xhome-service-container.git"
+    },
+    "keywords": [
+        "xhome",
+        "container",
+        "api"
+    ],
+    "author": "Antonio Hermosilla Parra",
+    "license": "GPL-3.0",
+    "dependencies": {
+        "debug": "^4.3.1",
+        "express": "^4.17.1",
+        "http-status": "^1.5.0",
+        "morgan": "^1.10.0",
+        "nodemon": "^2.0.7"
+    },
+    "devDependencies": {
+        "eslint": "^7.28.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-plugin-import": "^2.23.4"
+    }
+}
